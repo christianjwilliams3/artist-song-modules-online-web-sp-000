@@ -2,6 +2,10 @@ require_relative '../lib/concerns/memorable'
 require 'pry'
 
 class Song
+  
+  extend self.reset_all 
+  extend self.count  
+  
   attr_accessor :name
   attr_reader :artist
 
