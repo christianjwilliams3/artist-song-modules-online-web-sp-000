@@ -1,3 +1,4 @@
+require_relative '../lib/concerns/memorable'
 require_relative '../lib/concerns/paramable'
 
 require 'pry'
