@@ -3,7 +3,7 @@ require 'pry'
 
 class Artist
   
-  extend 
+  extend self.reset_all 
   attr_accessor :name
   attr_reader :songs
 
