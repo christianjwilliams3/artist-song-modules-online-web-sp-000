@@ -1,3 +1,5 @@
+require_relative '../lib/concerns/paramable'
+
 require 'pry'
 
 class Song
