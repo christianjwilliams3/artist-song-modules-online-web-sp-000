@@ -4,6 +4,8 @@ require 'pry'
 class Artist
   
   extend self.reset_all 
+  extend self.count 
+  
   attr_accessor :name
   attr_reader :songs
 
